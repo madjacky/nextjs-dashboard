@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:where(html) {
+  block-size: 100%;
+}
+:where(body) {
+  margin: 0;
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+  min-block-size: 100svb;
+}
